@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Cake - Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="product-detail.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sweet Delights Bakery</div>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="message.html">Message</a></li>
+            </ul>
+            <div class="cart">
+                <a href="#cart"><i class="fas fa-shopping-cart"></i> Cart (0)</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <a href="index.html#products" class="back-link">&larr; Back to Products</a>
+        <div class="product-detail">
+            <div class="product-image">
+                <img src="D:\webprogramming\week 5\images\chocolate cake.jpeg" alt="Chocolate Cake">
+            </div>
+            <div class="product-info">
+                <h1>Chocolate Cake</h1>
+                <p class="price">$24.99</p>
+                <p class="description">Our signature chocolate cake is made with premium cocoa and topped with a smooth, creamy chocolate frosting. Perfect for birthdays, celebrations, or just satisfying your chocolate cravings!</p>
+                <div class="product-meta">
+                    <p><strong>Ingredients:</strong> Flour, sugar, cocoa powder, eggs, milk, vegetable oil, baking powder, salt, vanilla extract</p>
+                    <p><strong>Allergens:</strong> Contains wheat, milk, and eggs</p>
+                    <p><strong>Size:</strong> 9-inch round cake (serves 8-10)</p>
+                </div>
+                <div class="product-actions">
+                    <div class="quantity">
+                        <label for="quantity">Quantity:</label>
+                        <select id="quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                    <button class="btn buy-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="related-products">
+            <h2>You May Also Like</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="D:\webprogramming\week 5\images\-Apple-Pie.jpg" alt="Apple Pie">
+                    <h3>Apple Pie</h3>
+                    <p>Classic apple pie with a flaky crust</p>
+                    <p class="price">$18.99</p>
+                    <a href="apple-pie.html" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="D:\webprogramming\week 5\images\Fruit Tart.jpg" alt="Fruit Tart">
+                    <h3>Fruit Tart</h3>
+                    <p>Fresh fruit tart with custard filling</p>
+                    <p class="price">$22.99</p>
+                    <a href="fruit-tart.html" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#products">Products</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sweet Delights Bakery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
